@@ -12,50 +12,6 @@ const btn7 = document.getElementById("7");
 const btn8 = document.getElementById("8");
 const btn9 = document.getElementById("9");
 
-// Codigo Antiguo
-// let cantidadLetras = 0;
-// let cantidadNumeros = 0;
-
-// let validoLetras = false;
-// let validoNumeros = false;
-
-// let i = 1;
-
-// mensaje por defecto
-
-// // funcion que escribira en el h2 vacio
-// const llenarCampo = (letra, numero) => {
-//   // cambio de mensaje
-//   if (cantidadLetras == 10 && cantidadNumeros == 10) {
-//     mensaje = "Completado!";
-//     validoNumeros = false;
-//   } else if (cantidadLetras == 10) {
-//     mensaje = "faltan numeros";
-//     validoLetras = false;
-//   }
-
-//   // empezamos con las letras
-//   if (validoLetras && i == numero) {
-//     letras.innerHTML += letra;
-//     i++;
-//     cantidadLetras++;
-//     if (i == 10) {
-//       i = 0;
-//     }
-//   }
-//   // Seguimos con los numeros
-//   else if (validoNumeros && i == numero) {
-//     numeros.innerHTML += numero;
-//     i++;
-//     cantidadNumeros++;
-//     if (i == 10) {
-//       i = 0;
-//     }
-//   } else {
-//     alert(mensaje);
-//   }
-// };
-
 const letrasJ = {
   1: "A",
   2: "B",
